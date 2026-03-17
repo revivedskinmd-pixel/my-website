@@ -4,36 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revived Skin & Body</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to Revived Skin & Body</h1>
         <nav>
+            <h1>Revived Skin & Body</h1>
             <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#primary-care">Primary Care</a></li>
+                <li><a href="#weight-loss">Weight Loss</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#about">About Us</a></li>
+                <li><a href="#injections">Injections</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <section id="home">
+            <h2>Welcome to Revived Skin & Body</h2>
+            <p>Your journey to a healthier you starts here.</p>
+        </section>
+        <section id="primary-care">
+            <h2>Primary Care</h2>
+            <p>Providing comprehensive healthcare for the whole family.</p>
+        </section>
+        <section id="weight-loss">
+            <h2>Weight Loss</h2>
+            <p>Personalized plans to help you achieve your weight loss goals.</p>
+        </section>
         <section id="services">
             <h2>Our Services</h2>
-            <p>Offering a variety of skin and body treatments to rejuvenate your natural beauty.</p>
+            <p>Explore our range of medical and cosmetic treatments.</p>
         </section>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Revived Skin & Body is dedicated to providing the best in skincare and wellness.</p>
+        <section id="injections">
+            <h2>Injections</h2>
+            <p>Safe and effective injection treatments for your needs.</p>
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>Email: info@revivedskinbody.com</p>
-            <p>Phone: (123) 456-7890</p>
+            <p>Get in touch to schedule an appointment.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Submit">
+            </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2026 Revived Skin & Body</p>
+        <p>&copy; 2026 Revived Skin & Body. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
